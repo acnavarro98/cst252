@@ -1,0 +1,23 @@
+body {
+	background-color: #a5a58d;
+}
+img {
+	width: 175px;
+}
+
+
+#content {
+	min-height: 200px;
+	padding: 25px;
+	margin: 10px;
+	border: solid 1px black;
+	background-color: #ffe8d6;
+}
+
+#labs {
+	min-height: 100px;
+	padding: 25px;
+	margin: 10px;
+	border: solid 1px black;
+	background-color: #ffe8d6;
+}
