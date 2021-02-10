@@ -1,0 +1,25 @@
+body {
+	background-color: #c89f9c;
+}
+h1, h2, h3 {
+  color: #b36a5e;
+	c89f9c
+}
+#content {
+	min-height: 675px;
+	padding: 25px;
+	margin: 10px;
+	background-color: #eee2df;
+}
+
+#output {
+	min-height: 100px;
+	padding: 5px 15px 15px 15px;
+	margin: 10px;
+	border: solid 1px black;
+}
+
+#car {
+float: right;
+margin: 20px 10px 4.5px 20px;
+}
