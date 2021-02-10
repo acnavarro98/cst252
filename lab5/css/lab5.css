@@ -1,15 +1,4 @@
-body {
-	background-color: #c89f9c;
-}
-h1, h2, h3 {
-  color: #b36a5e;
-}
-#content {
-	min-height: 675px;
-	padding: 25px;
-	margin: 10px;
-	background-color: #eee2df;
-}
+
 
 #output {
 	min-height: 100px;
