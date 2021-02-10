@@ -1,0 +1,11 @@
+body {
+	background-color: #a5a58d;
+}
+#content {
+	
+	min-height: 50px;
+	padding: 25px;
+	margin: 10px;
+	border: solid 1px black;
+	background-color: #ffe8d6;
+}
