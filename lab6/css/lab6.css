@@ -1,0 +1,12 @@
+#output {
+	min-height: 100px;
+	padding: 5px 15px 15px 15px;
+	margin: 10px;
+	border: solid 1px black;
+}
+
+#carpic {
+float: right;
+width: 350px;
+margin: 20px 10px 4.5px 20px;
+}
