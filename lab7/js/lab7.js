@@ -21,7 +21,7 @@
  var nameSorted = nameArraySort.join('');
  console.log("nameSorted =", nameSorted);
 
- return nameSorted;
+  return nameSorted;
 }
  //Outside of the function, call the function and output the results with document.write() to neatly output the user's sorted name.
 document.writeln("I've sorted your name: ", sortUserName(), "</br>");
