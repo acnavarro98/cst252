@@ -23,4 +23,4 @@ console.log("Adding 10 to array: ", result);
  var result= array.map(function(x){
      return x * 10;
  })
-console.log("Multiplying 10 to array: ", result)
+console.log("Multiplying 10 to array: ", result);
