@@ -1,0 +1,13 @@
+#button-field {
+  height: 80vh;
+}
+
+.major-section {
+  border: dotted 1px gray;
+}
+
+#better-button {
+  position: absolute;
+  top: 50%
+  
+}
