@@ -29,6 +29,11 @@ color: #b36a5e;
 text-decoration: none;
 }
 
+a:visited {
+color: #b36a5e;
+text-decoration: none;
+}
+
 a:hover {
 color: white;
 text-decoration: none;
