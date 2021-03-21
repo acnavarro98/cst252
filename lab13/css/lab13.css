@@ -2,5 +2,16 @@
 	min-height: 100px;
 	padding: 5px 15px 15px 15px;
 	margin: 10px;
-	border: solid 1px #b36a5e;
+}
+
+
+body {
+  text-align: center;
+}
+img {
+	width: 500px;
+}
+
+p, h2, h3 {
+  text-align: left;
 }
