@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Lab 15: Object-Oriented Design</title>
+    <link rel="stylesheet" type="text/css" href="../css/site.css">
+    <link rel="stylesheet" type="text/css" href="css/lab15.css">
+    <script src="js/lab15.js" defer></script>
+  </head>
+
+  <body>
+    <div id="navcontainer">
+      <ul>
+        <li><a href="../lab14/index.html">←Lab 14</a></li>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../lab16/index.html">Lab 16→</a></li>
+      </ul>
+    </div>
+
+    <div id="content">
+      <h1>Lab 15: Object-Oriented Design</h1>
+      <p>The main idea for this lab is to create a JavaScript constructor.</p>
+
+      <h2>Challenges</h2>
+      <p>For the first task, I had no challenges. The second task was more challenging
+      because it took us a while to figure out what to write for the pseudocode.</p>
+
+      <h2>Results</h2>
+      <p>Here are the results:</p>
+
+      <div id="output">  </div>
+
+      <a href = "js/lab15.js">JavaScript Source</a>
+    </div>
+
+      <div id="oopDesign">
+        <h2>OOP Design (Hangman)</h2>
+
+        <ol>
+          <li>Understand the Problem</li>
+            <ul>
+              <li>Set up game board</li>
+              <li>Game loop</li>
+              <li>Draw board</li>
+              <li>Generate a word</li>
+              <li>Get letter from player</li>
+              <li>Validate letter</li>
+              <li>Check if letter id correct or wrong</li>
+              <li>Finish game if whole word was guessed</li>
+            </ul>
+
+            <br>
+
+          <li>Pseudocode the High Level Approach</li>
+            <pre>
+  Set up game initially
+      Create game
+      Create players
+  Start the game loop
+      Render the board
+      Generate a word
+      Display word length
+      Get letters from players
+      If letter is correct
+        Display letter on line
+      Else
+        Draw stick figure body parts
+        Display wrong letters
+      If game should end
+        Display victory/loss message
+        Stop looping
+      Else
+        Keep looping
+            </pre>
+
+          <li>Assign Actions to Objects</li>
+
+          <pre>
+Set up game initially [Hangman]
+    Create game [Board]
+    Create players [Player]
+Start the game loop [Hangman]
+    Render the board [Board]
+    Generate a word [Hangman]
+    Display word length [Board]
+    Get letters from players [Player]
+    If letter is correct [Board]
+      Display letter on line [Board]
+    Else
+      Draw stick figure body parts [Board]
+      Display wrong letters [Board]
+    If game should end [Hangman]
+      Display victory/loss message
+      Stop looping
+    Else
+      Keep looping [Hangman]
+          </pre>
+
+          <li>Make Javascript-ish Pseudocode</li>
+
+          <pre>
+class Hangman
+    initialize
+        set up the board
+        set up the players
+        assign starting player
+
+    play
+        loop infinitely
+            call the board rendering method
+            generate a word
+            display word length
+            get letters from players
+            validate letters
+
+    check_game_over
+        check_victory
+        check_loss
+
+    check_victory
+        if board says the word is correct
+            display victory message
+
+    check_loss
+        if board says the stick figure is complete
+            display loss message
+          </pre>
+        </ol>
+      </div>
+
+  </body>
+<html>

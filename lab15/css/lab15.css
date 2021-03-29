@@ -1,0 +1,22 @@
+#output {
+ 	font-family: 'Courier New', monospace;
+ 	min-height: 100px;
+ 	padding: 5px 15px 15px 15px;
+ 	margin: 10px;
+ 	border: solid 1px #b36a5e;
+ }
+
+ #oopDesign {
+  min-height: 100px;
+ 	padding: 25px;
+ 	margin: 10px;
+ 	background-color: #eee2df;
+ }
+
+ li {
+   font-size: 16px;
+ }
+
+ pre {
+   font-size: 14px;
+ }
