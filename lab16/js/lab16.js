@@ -13,4 +13,4 @@ $("button").click(function() {
 });
 
 // Restyle the button with jQuery so it is a pleasant green.
-$("button").css("color", "green")
+$("button").css("color", "green");
