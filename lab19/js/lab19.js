@@ -5,7 +5,7 @@
  */
 
 
-var endpoint = "https://api.kanye.rest/"
+var endpoint = "https://official-joke-api.appspot.com/random_joke"
 
 // Add a click event to the button
   $("#activate").click(function(){
@@ -13,6 +13,7 @@ var endpoint = "https://api.kanye.rest/"
       $.ajax({
           url: endpoint,
           type: "GET",
+          dataType : "json",
     })
 
     .done(function(data) {
