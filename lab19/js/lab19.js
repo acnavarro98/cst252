@@ -5,7 +5,7 @@
  */
 
 
-var endpoint = "https://official-joke-api.appspot.com/random_joke"
+var endpoint = "https://www.boredapi.com/api/activity/"
 
 // Add a click event to the button
   $("#activate").click(function(){
